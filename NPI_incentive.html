@@ -237,7 +237,7 @@ function reCalc() {
     let table = document.getElementById("incentiveTable");
     let total = 0;
 
-    for (let i = 1; i <= 5; i++) {
+    for (let i = 1; i <= 8; i++) {
         let qty = parseFloat(table.rows[i].cells[2].children[0].value) || 0;
         let mul = parseFloat(table.rows[i].cells[5].innerText);
         let inc = parseFloat(table.rows[i].cells[4].innerText);
